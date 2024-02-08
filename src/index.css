@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0 auto;
+  background-color: #ddd;
+
+  color: #23366e;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+.container {
+  background-color: #fff;
+  max-width: 1600px;
+  margin: 0 auto;
+  height: 100vh;
+
+  background-image: url('/public/background.svg');
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
